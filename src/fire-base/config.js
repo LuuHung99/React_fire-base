@@ -1,5 +1,7 @@
 // Firebase App (the core Firebase SDK) is always required and must be listed first
 import *as firebase from "firebase/app";
+
+// Tạo tham chiếu lưu trữ từ storage
 import "firebase/storage";
 
 const firebaseConfig = {
@@ -15,6 +17,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
 const storage = firebase.storage();
 
 export { storage, firebase as default };

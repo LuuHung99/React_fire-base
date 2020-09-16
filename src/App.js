@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import "./App.css";
-import DownLoad from "./component/DownLoad";
-// import  UpLoad from './component/UpLoad'; 
-// import DeleteStorage from './component/DeleteStorage';
+// import  UpLoad from './component/storage/UpLoad'; 
+// import DownLoad from './component/storage/DownLoad';
+// import Update from './component/storage/Update';
+// import Delete from './component/storage/Delete';
+import ListFile from './component/storage/ListFile';
 
 class App extends Component {
   render() {
     
     return (
       <div className="App">
-        < DownLoad />
         {/* <UpLoad /> */}
-        {/* < DeleteStorage /> */}
+        {/* < DownLoad /> */}
+        {/* <Update /> */}
+        {/* < Delete /> */}
+        <ListFile />
         <h1>Hello</h1>
       </div>
     );

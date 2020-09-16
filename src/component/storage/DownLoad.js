@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { storage } from '../fire-base/config';
+import { storage } from '../../fire-base/config';
 
+//Tạo một tham chiếu gốc
 var storageRef = storage.ref();
 class DownLoad extends Component {
   render() {
-    const ShowFileUrl =() => {
+    const ShowFileUrl = () => {
       storageRef.child('images/hello.jpg').getDownloadURL().then(function(url) {
       var xhr = new XMLHttpRequest();
       xhr.responseType = 'blob';
@@ -15,10 +16,10 @@ class DownLoad extends Component {
       xhr.open('GET', url);
       xhr.send();
 
-      // Or inserted into an <img> element:
       }).catch(function(error) {
         console.log(error);
       });
+      // console.log(downLoadTask);
     }
     return (
       <div>
@@ -29,3 +30,4 @@ class DownLoad extends Component {
 }
 
 export default DownLoad;
+
