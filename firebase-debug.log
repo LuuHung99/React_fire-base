@@ -1,0 +1,13 @@
+[debug] [2021-03-17T06:03:43.668Z] ----------------------------------------------------------------------
+[debug] [2021-03-17T06:03:43.671Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Luu Hung\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-03-17T06:03:43.671Z] CLI Version:   9.6.1
+[debug] [2021-03-17T06:03:43.671Z] Platform:      win32
+[debug] [2021-03-17T06:03:43.671Z] Node Version:  v15.8.0
+[debug] [2021-03-17T06:03:43.672Z] Time:          Wed Mar 17 2021 13:03:43 GMT+0700 (Indochina Time)
+[debug] [2021-03-17T06:03:43.673Z] ----------------------------------------------------------------------
+[debug] [2021-03-17T06:03:43.673Z] 
+[debug] [2021-03-17T06:03:43.680Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-17T06:03:43.681Z] > authorizing via signed-in user
+[debug] [2021-03-17T06:03:43.681Z] [iam] checking project react-firebase-8a07d for permissions ["firebase.projects.get"]
+[debug] [2021-03-17T06:03:43.684Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/react-firebase-8a07d:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}

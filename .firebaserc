@@ -1,5 +1,31 @@
 {
   "projects": {
-    "default": "react-firebase-8a07d"
+    "default": "react-firebase-8a07d",
+    "public": "react-firebase-8a07d",
+    "hung": "react-firebase-8a07d"
+  },
+  "targets": {
+    "react-firebase-8a07d": {
+      "hosting": {
+        "https://react-firebase-8a07d.firebaseapp.com/": [
+          "daotaovnua.com"
+        ],
+        "https://react-firebase-8a07d.web.app/": [
+          "daotao.com"
+        ],
+        "datao": [
+          "https://reactht.web.app/"
+        ],
+        "admin": [
+          "admin-dt"
+        ],
+        "public": [
+          "admin-public-example"
+        ],
+        "block": [
+          "https://admin-dt.web.app/"
+        ]
+      }
+    }
   }
 }

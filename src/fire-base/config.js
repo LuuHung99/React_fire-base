@@ -11,8 +11,8 @@ const firebaseConfig = {
   projectId: "react-firebase-8a07d",
   storageBucket: "react-firebase-8a07d.appspot.com",
   messagingSenderId: "491818710838",
-  appId: "1:491818710838:web:ed62eb7fed8815f828a597",
-  measurementId: "G-WE01V0B1ML"
+  appId: "1:491818710838:web:6b1356a8ee544c1c28a597",
+  measurementId: "G-B42M3GDK86"
 };
 
 // Initialize Firebase

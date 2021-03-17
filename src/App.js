@@ -4,7 +4,7 @@ import "./App.css";
 // import DownLoad from './component/storage/DownLoad';
 // import Update from './component/storage/Update';
 // import Delete from './component/storage/Delete';
-import ListFile from './component/storage/ListFile';
+// import ListFile from './component/storage/ListFile';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
         {/* < DownLoad /> */}
         {/* <Update /> */}
         {/* < Delete /> */}
-        <ListFile />
+        {/* <ListFile /> */}
         <h1>Hello</h1>
       </div>
     );

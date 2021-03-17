@@ -8,7 +8,7 @@ class Delete extends Component {
   render() {
     const DeleteFile = () => {
       // Create a reference to the file to delete
-      var desertRef = storageRef.child('images/hello.jpg');
+      var desertRef = storageRef.child('images/img_list3-2.png');
       // Delete the file
       desertRef.delete().then(function() {
         // File deleted successfully
